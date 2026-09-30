@@ -40,6 +40,18 @@ my-codex-skills/
 
 本仓库公开。提交前请检查 Skill、示例和脚本，不要上传令牌、密码、私有文件或真实工作数据。
 
+## 上传或更新 Skill
+
+在仓库根目录完成修改后，使用 Git 提交并推送；首次推送时请按提示登录自己的 GitHub 账号：
+
+```powershell
+git add skills README.md
+git commit -m "Add or update a skill"
+git push
+```
+
+如果同时修改了模板或仓库约定，也将对应文件加入 `git add`。
+
 ## 在 Codex 中使用
 
 可以让 Codex 从本仓库的 `skills/<skill-name>` 路径安装指定 Skill 到个人全局目录 `~/.codex/skills/`。也可以克隆仓库后在 Windows PowerShell 中手动复制：
